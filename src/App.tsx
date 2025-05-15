@@ -1,7 +1,7 @@
 function App() {
     return (
         <>
-            <div className="text-4xl">Olá, mundo!</div>
+            <div className="min-h-screen w-screen">Olá, mundo!</div>
         </>
     );
 }
