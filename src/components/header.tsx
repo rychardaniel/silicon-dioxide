@@ -17,12 +17,20 @@ export const Header = () => {
                     <PopoverHeader title={"Referências"}>
                         <ul>
                             <li>
-                                <a href="https://google.com">
+                                <a
+                                    href="https://google.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     Link da referência 1
                                 </a>
                             </li>
                             <li>
-                                <a href="https://google.com">
+                                <a
+                                    href="https://google.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
                                     Link da referência 2
                                 </a>
                             </li>
