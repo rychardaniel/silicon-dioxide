@@ -18,20 +18,20 @@ export const Header = () => {
                         <ul>
                             <li>
                                 <a
-                                    href="https://google.com"
+                                    href="https://pt.wikipedia.org/wiki/Di%C3%B3xido_de_sil%C3%ADcio"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    Link da referência 1
+                                    Wikipédia
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="https://google.com"
+                                    href="https://avanziquimica.com.br/blog/blog-p/cuidados-produtos-quimicos/tudo-sobre-o-dioxido-de-silicio-silica-aplicacoes-uso-seguro-e-cuidados"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    Link da referência 2
+                                    Avanzi
                                 </a>
                             </li>
                         </ul>
