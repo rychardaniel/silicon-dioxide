@@ -31,8 +31,8 @@ export const Properties = () => {
                             <strong>Dureza:</strong> 7 (escala de Mohs)
                         </li>
                         <li>
-                            <strong>Estrutura:</strong> Tetraédrica (Si ligado a
-                            4 O)
+                            <strong>Estrutura:</strong> Tetraédrica cristalina
+                            (Si ligado a 4 O)
                         </li>
                         <li>
                             <strong>Índice de refração:</strong> ~1,544 – 1,553
