@@ -23,22 +23,22 @@ export const Content = () => {
                     <div className="h-full overflow-y-auto w-full">
                         <div className="flex flex-col items-center space-y-4 p-4">
                             <img
-                                src="public/cristal.jpeg"
+                                src="cristal.jpeg"
                                 alt="Cristal"
                                 className="w-full h-auto object-contain"
                             />
                             <img
-                                src="public/areia.jpeg"
+                                src="areia.jpeg"
                                 alt="Areia"
                                 className="w-full h-auto object-contain"
                             />
                             <img
-                                src="public/gel.jpeg"
+                                src="gel.jpeg"
                                 alt="Gel"
                                 className="w-full h-auto object-contain"
                             />
                             <img
-                                src="public/raiox.jpeg"
+                                src="raiox.jpeg"
                                 alt="Raio X"
                                 className="w-full h-auto object-contain"
                             />
