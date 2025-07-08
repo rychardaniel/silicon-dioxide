@@ -41,7 +41,7 @@ function Atom({
 function Bond({
     start,
     end,
-    radius = 0.05,
+    radius = 0.03,
 }: {
     start: [number, number, number];
     end: [number, number, number];
@@ -87,8 +87,11 @@ export default function MoleculeModel() {
             <Atom position={[-1, 0, 0]} color="#FF6961" size={0.25} label="O" />
             <Atom position={[1, 0, 0]} color="#FF6961" size={0.25} label="O" />
 
-            <Bond start={[0, 0, 0]} end={[-1, 0, 0]} />
-            <Bond start={[0, 0, 0]} end={[1, 0, 0]} />
+            <Bond start={[0, 0, 0]} end={[-1, 0.12, 0]} />
+            <Bond start={[0, 0, 0]} end={[-1, -0.12, 0]} />
+
+            <Bond start={[0, 0, 0]} end={[1, 0.12, 0]} />
+            <Bond start={[0, 0, 0]} end={[1, -0.12, 0]} />
         </Canvas>
     );
 }

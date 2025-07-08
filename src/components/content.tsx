@@ -1,5 +1,6 @@
 import { Applications } from "./data/applications";
 import { Properties } from "./data/properties";
+import { ImagePopup } from "./ImagemPopup";
 import MoleculeModel from "./MoleculeModel";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
@@ -22,26 +23,10 @@ export const Content = () => {
                 <div className="h-[60vh] w-full overflow-hidden">
                     <div className="h-full overflow-y-auto w-full">
                         <div className="flex flex-col items-center space-y-4 p-4">
-                            <img
-                                src="cristal.jpeg"
-                                alt="Cristal"
-                                className="w-full h-auto object-contain"
-                            />
-                            <img
-                                src="areia.jpeg"
-                                alt="Areia"
-                                className="w-full h-auto object-contain"
-                            />
-                            <img
-                                src="gel.jpeg"
-                                alt="Gel"
-                                className="w-full h-auto object-contain"
-                            />
-                            <img
-                                src="raiox.jpeg"
-                                alt="Raio X"
-                                className="w-full h-auto object-contain"
-                            />
+                            <ImagePopup src="cristal.jpeg" />
+                            <ImagePopup src="areia.jpeg" />
+                            <ImagePopup src="gel.jpeg" />
+                            <ImagePopup src="raiox.jpeg" />
                         </div>
                     </div>
                 </div>
