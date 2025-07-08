@@ -11,7 +11,7 @@ export const Header = () => {
                             <li>Rychard</li>
                             <li>Guilherme</li>
                             <li>Kauã</li>
-                            <li>Arthur</li>
+                            {/* <li>Arthur</li> */}
                         </ul>
                     </PopoverHeader>
                     <PopoverHeader title={"Referências"}>
