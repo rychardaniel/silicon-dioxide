@@ -42,6 +42,15 @@ export const Header = () => {
                                     Avanzi
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    href="https://www-sciencedirect-com.translate.goog/topics/chemistry/silicon-dioxide?_x_tr_sl=auto&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=tc"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    ScienceDirect
+                                </a>
+                            </li>
                         </ul>
                     </PopoverHeader>
                 </div>
