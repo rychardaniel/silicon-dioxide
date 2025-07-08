@@ -4,7 +4,15 @@ export const Header = () => {
     return (
         <header className="w-full flex justify-center p-4 font-bold bg-zinc-900">
             <div className="flex flex-col sm:flex-row gap-2 justify-between w-full max-w-[1400px] px-4 items-center">
-                <h3>DIÓXIDO DE SILÍCIO</h3>
+                <h3
+                    onDoubleClick={() => {
+                        navigator.clipboard.writeText(
+                            "https://docs.google.com/presentation/d/1mA21dcCKB-EW9uvZfNMhy0htklfgJILK-cFH3SBoZdk/edit?usp=sharing"
+                        );
+                    }}
+                >
+                    DIÓXIDO DE SILÍCIO
+                </h3>
                 <div className="flex gap-2">
                     <PopoverHeader title={"Integrantes"}>
                         <ul>
